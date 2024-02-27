@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* remember:
+    content
+        padding: inside box
+            border
+                margin */
+    
+
+/* links ------------------------------------- */
+a {
+    font-family: "Syne", sans-serif;
+    background-color: #5eb882;
+    color: #001709;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 14px 20px ;
+    display: inline-block;
+    margin: auto;
+}
+
+a:hover {
+    background-color: #001709;
+    color: #ffffff;
+  }
+
+
+/* text -------------------------------------------- */
+p, h2, h3 {
+    font-family: "Manrope", sans-serif;
+}
+
+li {
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: #09573B;
+}
+
+/* -------------------------------------------------------------- */
+div.box-1 {
+    padding: 50px;
+    flex-direction: column;
+    margin: -10px;
+    top: -20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.name {
+    font-family: "Syne", sans-serif;
+    color: #04915d;
+    font-size: 25px;
+}
+
+.description {
+    font-family: "Manrope", sans-serif;
+    
+}
+
+.links {
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+div.box-2 {
+    padding: 50px;
+    margin: -10px;
+    top: -20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.flex-container {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    /* grid-template-columns: auto auto;
+    text-align: center;
+    float:inline-end;
+    max-width: 700px; */
+}
+
+.item {
+    border: 5px solid white;
+    background-color: #5eb882;
+    border-radius: 30px;
+    padding: 10px;
+    padding-bottom: 20px; 
+    min-width: 300px;
+
+ 
+}
+
+div.box-3 {
+    padding: 50px;
+    flex-direction: column;
+    margin: -10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+    .black-bar {
+        background-color:#001709;
+        color: #ffffff;
+        padding: 8px;
+        border-radius: 25px;
+        width: 70%;
+        margin: auto;
+  
+
+    }
+
+        
+/* ---------------------------------------------------------------------- */
