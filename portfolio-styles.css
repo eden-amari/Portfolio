@@ -10,6 +10,10 @@
                 margin */
     
 
+body { background-color: #09573B; }
+
+p, h2, h3, li { font-family: "Manrope", sans-serif; }
+
 /* links ------------------------------------- */
 a {
     font-family: "Syne", sans-serif;
@@ -28,20 +32,6 @@ a:hover {
     background-color: #001709;
     color: #ffffff;
   }
-
-
-/* text -------------------------------------------- */
-p, h2, h3 {
-    font-family: "Manrope", sans-serif;
-}
-
-li {
-    font-family: "Manrope", sans-serif;
-}
-
-body {
-    background-color: #09573B;
-}
 
 /* -------------------------------------------------------------- */
 div.box-1 {
@@ -73,41 +63,35 @@ div.box-1 {
 
 
 /* ---------------------------------------------------------------------- */
-div.box-2 {
+.box-2 {
+    color: white;
     padding: 50px;
+    padding-bottom: 70px;
     margin: -10px;
     top: -20px;
+
     align-items: center;
     text-align: center;
-    color: white;
-    padding-bottom: 70px;
 }
 
-.flex-container {
-    display: grid;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    
-    /* grid-template-columns: auto auto;
-    text-align: center;
-    float:inline-end;
-    max-width: 700px; */
-}
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
 
-.item {
-    border: 5px solid white;
-    background-color: #5eb882;
-    border-radius: 30px;
-    padding: 10px;
-    padding-bottom: 20px; 
-    min-width: 300px;
-
- 
-}
-
-div.box-3 {
+        .item {
+            border: 5px solid white;
+            background-color: #5eb882;
+            border-radius: 30px;
+            padding: 10px;
+            padding-bottom: 20px; 
+            min-width: 300px;
+        }
+/* ---------------------------------------------------------------------- */
+.box-3 {
     padding: 50px;
     flex-direction: column;
     margin: -10px;
@@ -122,11 +106,10 @@ div.box-3 {
         color: #ffffff;
         padding: 8px;
         border-radius: 25px;
-        width: 70%;
+        width: 60%;
+
         margin: auto;
-  
-
+        margin-bottom: 30px;
+        margin-top: 50px;
     }
-
-        
 /* ---------------------------------------------------------------------- */
