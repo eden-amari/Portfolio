@@ -147,12 +147,7 @@ a:hover {
 
     }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
+
 
 .group {
     display: flex;
@@ -197,17 +192,6 @@ a:hover {
    
 }
 
-.black-bar {
-    background-color: #001709;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
-    width: 90%;
-    margin: 50px auto -10px auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 /* ---------------------------------------------------------------------- */
 #blorb2 {
     background-color: #2c8953;
@@ -250,26 +234,36 @@ a:hover {
         justify-content: center;
     }
 }
-
-#black-bar-languages {
-    background-color: #001709;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
-    width: 92%;
-    margin: 50px 0px -10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
+.group {
+    flex: 1; /* Each group takes equal space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-#black-bar-certificates {
-    background-color: #001709;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
-    width: 93.35%;
-    margin: 0px 0px -10px;
+.item, .black-bar {
+ /* Apply the background color to both */
+    border-radius: 0; /* Remove border-radius */
+    padding: 20px; /* Remove padding */
+    color: white;
+    width: 100%; /* Set width to 100% */
+    flex: 1; /* Make both items and black bars take up equal space */
+}
+
+/* .item {
+    padding: 0px;
+} */
+.black-bar {
+    border-radius: 20px 20px 0 0; /* Add border-radius only to the top */
+    margin: 0; /* Remove margin to touch the items */
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-bottom: -10px; /* Remove bottom margin */
+    background-color: #001709
 }
