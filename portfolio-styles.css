@@ -194,7 +194,9 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
     max-width: 90%;
-}/* .box {
+}
+
+/* .box {
     width: 40%;
     height: 30%;
     background-color: #F5F3E8;
@@ -204,8 +206,7 @@ body {
     
     
     
-} */x-width: 90%;
-}/* .box {
+* .box {
     width: 40%;
     height: 30%;
     background-color: #F5F3E8;
