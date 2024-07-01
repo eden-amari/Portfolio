@@ -4,5 +4,6 @@
 
 <br>
 <h1>Future Changes</h1>
+<li>Link hover animation</li>
 <li>Mobile responsive layout</li>
-<li>Event log that cycles photos and captions using JavaScript</li>
+<li>Event log that cycles photos and captions</li>
