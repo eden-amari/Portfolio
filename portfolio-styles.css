@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://db.onlinewebfonts.com/c/9a835ecd5504d7ec84ad5fa704987c94?family=National+2+Bold');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+
+/* general rules---------------------------------------------------------------------- */
+h1{font-size: 3vw;}
+p {font-size: 1vw;}
+
+a {
+    padding: 40px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+    a:visited {
+        text-decoration: none;
+    }
+    a::hover {
+        text-decoration: dotted;
+    }
+
+.vr {
+    font-size: 50px;
+    color: white;
+    margin-left: -110px;
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+}
+/* ---------------------------------------------------------------------- */
+
+body {
+    background-color: #171717;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.block1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    max-width: 90%;
+}
+    header {
+        font-size: 1.3vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+        #my-initials {
+            font-family: "Sora", sans-serif;
+            color: #4631ea;
+            left: -100px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+#insta {
+    font-family: "Poppins", sans-serif;
+    /* color: rgb(255, 178, 255); */
+    color: rgb(82, 79, 238);
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+
+
+.pool-block {
+    float: left;
+    margin-left: 2vw;
+}
+
+    .photo-caption {
+        transform: rotate(2deg);
+        align-items: center;
+        justify-content: center; 
+    }
+
+    #name {
+        font-family: "Poppins", sans-serif;
+        font-size: 2vw;
+        text-wrap: wrap;
+        max-width: 20%;
+        position: absolute;
+        z-index: 1;
+        margin-top: -1vw;
+        /* background-color: #AA5D3C; */
+        background-color: #e7bd00;
+        font-weight: 500;
+        transform: rotate(-2deg);
+        padding: 0.5vw;
+        text-align: center;
+        box-shadow: 0 0 0 2px #4631ea, 8px 8px 0 0 #4631ea;
+        box-shadow: 0px 2px 4px 4px rgba(0,0,0,0.4), 0px 7px 13px -3px rgba(0,0,0,0.3), 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    } 
+    
+
+    #pool-photo {
+        height: 40vw;
+        margin-top: 4vw;
+        margin-left: 40px;   
+    }
+
+    #pool-caption {
+        font-size: .8vw;
+        margin-left: 5.5vw;
+    }
+
+.my-intro {
+    float: left;
+    margin-left: 6vw;
+    max-width: 50%;
+}
+
+    #description {
+        background-color: #F5F3E8;
+        color: #000;
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.04);
+        padding: 1.5vw;
+    }
+
+    #about-me {
+        background-color: #e6c300;
+        color: #000;
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.04);
+        padding: 1.5vw;
+    }
+
+/* second chunk with 2 columns ---------------------------------------------------------------------- */
+.chunk2 {
+    padding: 1.5vw;
+    color: black;
+    float: left;
+    margin-top: 5vw;
+    margin-left: -1vw;
+    background-color: #F5F3E8;
+    width: 100%;
+    
+}
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin: 1vw auto;
+        gap: 5vw;
+        width: 85%;
+        flex-wrap: wrap;
+        padding-top: 2vw;
+    }
+
+        .column {
+            float: left;
+            width: 100vw;
+            height: 80vh;
+            padding: 10px;
+            margin: auto; 
+            text-align: center;
+            flex-direction: column;
+            flex-basis: 100%; 
+            overflow-y: auto;
+        }
+
+        #clubs > p {
+            padding: 0.6vw;
+        }
+
+@media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+  }
+
+.events {
+    /* padding: 1.5vw;
+    width: 100%;
+    float: left; */
+    margin-left: 5vw;
+    margin-right: 5vw;
+    max-width: 90%;
+}/* .box {
+    width: 40%;
+    height: 30%;
+    background-color: #F5F3E8;
+    color: #000;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.04);
+    padding: 1.5vw;
+    
+    
+    
+} */
